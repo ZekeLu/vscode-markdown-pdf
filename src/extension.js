@@ -219,6 +219,9 @@ function convertMarkdownToHtml(filename, type, text) {
   // checkbox
   md.use(require('markdown-it-checkbox'));
 
+  // katex
+  md.use(require('@vscode/markdown-it-katex').default);
+
   // emoji
   var emoji_f = setBooleanValue(matterParts.data.emoji, vscode.workspace.getConfiguration('markdown-pdf')['emoji']);
   if (emoji_f) {

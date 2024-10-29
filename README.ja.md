@@ -36,6 +36,7 @@
 * [markdown-it-checkbox](https://github.com/mcecot/markdown-it-checkbox)
 * [markdown-it-container](https://github.com/markdown-it/markdown-it-container)
 * [markdown-it-include](https://github.com/camelaissani/markdown-it-include)
+* [markdown-it-katex](https://github.com/microsoft/vscode-markdown-it-katex)
 * [PlantUML](https://plantuml.com/)
   * [markdown-it-plantuml](https://github.com/gmunguia/markdown-it-plantuml)
 * [mermaid](https://mermaid-js.github.io/mermaid/)
@@ -104,6 +105,21 @@ Content of plugins/README.md
 
 Content of CHANGELOG.md
 ```
+
+### markdown-it-katex
+
+INPUT
+
+```
+$$
+\sqrt{3x-1}+(1+x)^2
+$$
+```
+
+OUTPUT
+
+![katex](images/katex.png)
+
 
 ### mermaid
 
