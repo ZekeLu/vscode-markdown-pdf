@@ -1,7 +1,5 @@
+node_modules/
 .history
 .vscode-test
-node_modules
-work/**
 *.vsix
-*.bat
-.eslintrc.json
+/extension.js
